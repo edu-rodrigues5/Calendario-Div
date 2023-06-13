@@ -1,0 +1,40 @@
+.calendario{
+    border-radius: 5px;
+    width: 450px;
+    position: absolute;
+    left: 35%;
+}
+.titulo{
+    text-align: center;
+    color: rgb(168, 166, 166);
+}
+.semanas{
+    display: flex;
+}
+.dia{
+    width: 14%;
+	height: 28px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 1px;  
+    text-shadow: 0px 1px 0px;
+    box-shadow: 0px 1px 0px rgb(170, 170, 170);
+}
+.men{
+    font-size: 15px;
+	height: 15px;
+}
+.amarelo{
+    background-color: rgb(253, 247, 72); 
+    color: red;
+}
+.cinza{
+    background-color: rgb(192, 192, 192); 
+}
+.azul{
+    background-color: rgb(174, 174, 250);
+    color: rgb(72, 72, 228);
+}
+.verde{
+    color: rgb(0, 204, 0);
+}
